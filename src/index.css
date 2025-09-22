@@ -1,0 +1,51 @@
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.app-root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: #0077cc;
+  color: white;
+  border-radius: 30px;
+  width: 90%;
+}
+
+.nav a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+  color: white;
+  font-size: 0.85rem;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.controls {
+  margin: 1rem 0;
+}
+
+.patient-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
