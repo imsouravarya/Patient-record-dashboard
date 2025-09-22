@@ -25,4 +25,4 @@ GitHub Repository Link : https://github.com/imsouravarya/Patient-record-dashboar
 
 I also deployed this project using Vercel
 
-link : patient-record-dashboard-iu9z.vercel.app
+link : http://patient-record-dashboard-iu9z.vercel.app
